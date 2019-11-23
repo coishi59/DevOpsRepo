@@ -16,7 +16,7 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('build web') {
           steps {
             bat 'php --version'
           }
