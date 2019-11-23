@@ -11,6 +11,7 @@ pipeline {
     stage('build') {
       steps {
         bat 'gcc --version'
+        bat 'php --version'
       }
     }
 
